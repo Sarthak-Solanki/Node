@@ -5,7 +5,7 @@ const addNote = (title, body) => {
  // const dublicateNotes = notes.filter( (note) =>note.title === title)
  const dublicateNote = notes.find((note)=>note.title===title)
  debugger
- 
+
   if (!dublicateNote) {
     notes.push({
       title: title,
